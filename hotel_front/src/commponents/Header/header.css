@@ -1,0 +1,57 @@
+.header {
+  background-color: black;
+  color: #fff;
+  height: 86px;
+}
+
+.header_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_burger-btn {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 26px;
+  position: relative;
+  cursor: pointer;
+}
+
+.burger {
+  margin-right: 30px;
+}
+
+.header_stryt {
+  display: flex;
+  align-items: center;
+}
+
+.header_logo {
+  height: 80px;
+  width: 80px;
+  background-color: black;
+}
+
+.location {
+  height: 30px;
+}
+
+.header_number {
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  height: 40px;
+}
+
+.header_icons {
+  display: flex;
+  align-items: center;
+}
+
+.insta {
+  margin-right: 15px;
+}
