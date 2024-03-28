@@ -1,0 +1,20 @@
+.footer {
+  background-color: black;
+  height: 105px;
+}
+
+.footer_text {
+  margin-left: 40px;
+}
+
+.footer_title {
+  color: white;
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.footer_desc {
+  color: white;
+  font-size: 16px;
+  margin-left: 40px;
+}

@@ -1,0 +1,31 @@
+.inMoscow {
+  margin-left: 200px;
+}
+
+.border-right {
+  position: absolute;
+  border-bottom: 4px solid black;
+  width: 190px;
+  left: 1px;
+  top: 1906px;
+}
+
+.inMoscow_title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.inMoscow_desc {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.fhod {
+  height: 300px;
+  width: 500px;
+}
+
+.inMoscow_desc span {
+  margin-left: 46px;
+}

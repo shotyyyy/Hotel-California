@@ -1,0 +1,37 @@
+.events {
+  margin-top: 40px;
+  height: 300px;
+}
+
+.events_body {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.events_img {
+  margin-right: 35px;
+}
+
+.events_img img {
+  height: 320px;
+  width: 1100px;
+}
+
+.events_text {
+  background-color: #ececec;
+  height: 320px;
+}
+
+.events_title {
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-bottom: 90px;
+  font-size: 24px;
+}
+
+.events_desc {
+  font-size: 24px;
+  padding-left: 40px;
+  padding-right: 100px;
+}

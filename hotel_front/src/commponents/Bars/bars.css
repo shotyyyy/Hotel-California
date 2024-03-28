@@ -1,0 +1,63 @@
+.bars {
+  margin-top: 40px;
+  background-color: black;
+}
+
+.bars_body {
+  display: flex;
+  align-items: center;
+}
+
+.bars_text {
+  color: #fff;
+}
+
+.bars_title {
+  position: absolute;
+  top: 2340px;
+  right: 450px;
+  font-size: 24px;
+}
+
+.bars_desc {
+  font-size: 20px;
+  margin-left: 742px;
+}
+
+.bars_name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-right: 190px;
+  margin-left: 120px;
+  font-size: 20px;
+}
+
+.bars_img {
+  margin-left: 30px;
+}
+
+.border1 {
+  width: 230px;
+  right: 489px;
+  position: absolute;
+  top: 2520px;
+  border-bottom: 4px solid white;
+}
+
+.border2 {
+  width: 230px;
+  right: 853px;
+  position: absolute;
+  top: 2520px;
+  border-bottom: 4px solid white;
+}
+
+.border3 {
+  width: 230px;
+  right: 1243px;
+  position: absolute;
+  top: 2520px;
+  border-bottom: 4px solid white;
+}

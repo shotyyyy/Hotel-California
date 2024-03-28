@@ -26,12 +26,14 @@
 .header_stryt {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .header_logo {
   height: 80px;
   width: 80px;
   background-color: black;
+  cursor: pointer;
 }
 
 .location {
@@ -53,5 +55,9 @@
 }
 
 .insta {
-  margin-right: 15px;
+  margin-right: 13px;
+}
+
+.scroll-lock {
+  overflow: hidden;
 }
