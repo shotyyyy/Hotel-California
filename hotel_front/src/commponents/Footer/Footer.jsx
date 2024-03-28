@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer_text">
           <div className="footer_title">
-            2024. Hotel California, Moscow
+            © 2024. Hotel California, Moscow
             <div className="footer_desc">Official Website</div>
           </div>
         </div>
