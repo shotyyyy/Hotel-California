@@ -38,36 +38,34 @@ const Header = () => {
   }, [menuActive]);
   return (
     <div className="header">
-      <div className="container">
-        <div className="header_row">
-          <div
-            className="header_burger-btn"
-            onClick={() => setMenuActive(!menuActive)}
-          >
-            <img className="burger" src={bg} alt="" />
-            МЕНЮ
-          </div>
-          <div className="header_stryt" onClick={handleScrollToMap}>
-            Театральный пр., 2
-            <img className="location" src={adress} alt="" />
-          </div>
-          <div className="header_logo">
-            <a href="../../App.jsx">
-              <img src={logo} alt="" />
-            </a>
-          </div>
-          <div className="header_number">
-            <img className="phone" src={phone} alt="" />
-            +7 985-463-40-99
-          </div>
-          <div className="header_icons">
-            <a href="https://yandex.ru/images/search?img_url=https%3A%2F%2Fcdn.fishki.net%2Fupload%2Fpost%2F2017%2F05%2F04%2F2282965%2Ffotorcreated.jpg&lr=213&pos=2&rpt=simage&source=serp&text=%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BF%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%BE%20%D0%B2%20%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B8">
-              <img className="insta" src={instagram} alt="" />
-            </a>
-            <a href="https://web.telegram.org/a/#280851800">
-              <img src={telegram} alt="" />
-            </a>
-          </div>
+      <div className="header_row">
+        <div
+          className="header_burger-btn"
+          onClick={() => setMenuActive(!menuActive)}
+        >
+          <img className="burger" src={bg} alt="" />
+          <span className="menutxt">МЕНЮ</span>
+        </div>
+        <div className="header_stryt" onClick={handleScrollToMap}>
+          <span className="addresstxt">Театральный пр-т, 2</span>
+          <img className="location" src={adress} alt="" />
+        </div>
+        <div className="header_logo">
+          <a href="../../App.jsx">
+            <img src={logo} alt="" />
+          </a>
+        </div>
+        <div className="header_number">
+          <img className="phone" src={phone} alt="" />
+          +7 985-463-40-99
+        </div>
+        <div className="header_icons">
+          <a href="https://yandex.ru/images/search?img_url=https%3A%2F%2Fcdn.fishki.net%2Fupload%2Fpost%2F2017%2F05%2F04%2F2282965%2Ffotorcreated.jpg&lr=213&pos=2&rpt=simage&source=serp&text=%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BF%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%BE%20%D0%B2%20%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B8">
+            <img className="insta" src={instagram} alt="" />
+          </a>
+          <a href="https://web.telegram.org/a/#280851800">
+            <img src={telegram} alt="" />
+          </a>
         </div>
       </div>
       <Menu active={menuActive} setActive={setMenuActive} items={items} />
