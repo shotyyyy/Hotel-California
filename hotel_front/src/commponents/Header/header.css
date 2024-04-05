@@ -42,21 +42,22 @@
 
 .header_stryt {
   /* 15 */
-  width: 25%; 
+  width: 25%;
   -webkit-box-pack: end;
   -webkit-box-align: center;
   justify-content: flex-end;
   display: flex;
   align-items: center;
   cursor: pointer;
-  color: rgba(255,255,255,.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
-
 .header_logo {
-  height: 100px;
+  height: 160px;
+  margin-left: 190px;
+  margin-right: 190px;
   /* 100px */
-  width: 10%;
+  width: 15%;
   background-color: #000;
   display: flex;
   -webkit-box-align: center;
@@ -79,9 +80,9 @@
 
 .header_number {
   width: 20%;
-  
+
   display: flex;
-  align-items:center;
+  align-items: center;
   margin-right: 10%;
   -webkit-box-align: center;
   justify-content: flex-start;
@@ -94,7 +95,6 @@
 .header_icons {
   display: flex;
   align-items: center;
-  
 }
 
 .insta {
