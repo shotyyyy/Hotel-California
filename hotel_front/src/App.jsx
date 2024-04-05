@@ -1,25 +1,22 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home/Home";
+import RoomsPrices from "./Pages/RoomsPrices/RoomsPrices";
 import Header from "./commponents/Header/Header";
-import City from "./commponents/City/City";
-import Rooms from "./commponents/Rooms/Rooms";
-import InMoscow from "./commponents/InMoscow/InMoscow";
-import Bars from "./commponents/Bars/Bars";
-import Events from "./commponents/Events/Events";
-import Map from "./commponents/Map/Map";
 import Footer from "./commponents/Footer/Footer";
 
 function App() {
   return (
     <div className="wrapper">
-      <Header />
-      <City />
-      <Rooms />
-      <InMoscow />
-      <Bars />
-      <Events />
-      <Map />
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/RoomsPrices" element={<RoomsPrices />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

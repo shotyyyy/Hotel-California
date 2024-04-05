@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import "./header.css";
 import Menu from "../Menu/Menu";
 import adress from "../../img/img_header/wired-outline-18-location-pin (1) 1.svg";
@@ -18,9 +19,12 @@ const Header = () => {
   };
   const [menuActive, setMenuActive] = useState(false);
   const items = [
-    { value: "ГЛАВНАЯ", href: "#!" },
-    { value: "НОМЕРА И ЦЕНЫ", href: "#!" },
-    { value: "БРОНИРОВАНИЕ", href: "#!" },
+    {
+      value: "ГЛАВНАЯ",
+      path: "/",
+    },
+    { value: "НОМЕРА И ЦЕНЫ", path: "../../Pages/RoomsPrices/RoomsPrices.jsx" },
+    { value: "БРОНИРОВАНИЕ", path: "#!" },
     { value: "ЛИЧНЫЙ КАБИНЕТ", href: "#!" },
   ];
   useEffect(() => {

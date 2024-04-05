@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./menu.css";
 
 const Menu = ({ header, items, active, setActive }) => {
@@ -12,7 +13,7 @@ const Menu = ({ header, items, active, setActive }) => {
         <ul>
           {items.map((item, index) => (
             <li key={index}>
-              <a href={item.href}>{item.value}</a>
+            <NavLink to={item.path}>{item.value}</NavLink>
             </li>
           ))}
         </ul>
