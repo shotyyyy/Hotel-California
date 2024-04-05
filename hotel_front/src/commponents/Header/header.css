@@ -1,4 +1,6 @@
 .header {
+  position: fixed;
+  width: 1536px;
   background-color: black;
   color: #fff;
   font-family: Arial, sans-serif;

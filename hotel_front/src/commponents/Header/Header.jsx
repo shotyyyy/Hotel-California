@@ -23,7 +23,7 @@ const Header = () => {
       value: "ГЛАВНАЯ",
       path: "/",
     },
-    { value: "НОМЕРА И ЦЕНЫ", path: "../../Pages/RoomsPrices/RoomsPrices.jsx" },
+    { value: "НОМЕРА И ЦЕНЫ", path: "/RoomsPrices" },
     { value: "БРОНИРОВАНИЕ", path: "#!" },
     { value: "ЛИЧНЫЙ КАБИНЕТ", href: "#!" },
   ];
@@ -55,9 +55,9 @@ const Header = () => {
           <img className="location" src={adress} alt="" />
         </div>
         <div className="header_logo">
-          <a href="../../App.jsx">
+          <NavLink to="/">
             <img src={logo} alt="" />
-          </a>
+          </NavLink>
         </div>
         <div className="header_number">
           <img className="phone" src={phone} alt="" />

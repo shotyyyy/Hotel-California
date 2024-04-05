@@ -5,7 +5,8 @@ import Footer from "../../commponents/Footer/Footer";
 function RoomsPrices() {
   return (
     <div className="wrapper">
-      
+      <Header />
+      <Footer />
     </div>
   );
 }
