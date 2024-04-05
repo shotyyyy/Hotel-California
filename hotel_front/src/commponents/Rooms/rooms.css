@@ -1,11 +1,19 @@
+.container {
+  max-width: 1440px;
+  box-sizing: border-box; 
+}
+
 .rooms {
-  margin-top: 73px;
-  padding-left: 100px;
-  padding-right: 100px;
+  margin-top: 20px;
+  padding-bottom: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
   height: 600px;
 }
 
 .rooms_img {
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,8 +22,8 @@
 }
 
 .rooms_body img {
-  width: 400px;
-  height: 273px;
+  width: 375px;
+  height: 250px;
 }
 
 .border {
