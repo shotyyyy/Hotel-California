@@ -1,6 +1,6 @@
 .header {
-  position: fixed;
-  width: 1536px;
+  position: sticky;
+  width: 100%;
   background-color: black;
   color: #fff;
   font-family: Arial, sans-serif;
