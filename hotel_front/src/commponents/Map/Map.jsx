@@ -6,7 +6,7 @@ import telegram from "../../img/img_header/free-icon-telegram-2111646 1.svg";
 const Map = () => {
   return (
     <div className="map" id="map">
-      <div className="container">
+      
         <div className="map_body">
           <div className="map_map">
             <iframe
@@ -30,7 +30,7 @@ const Map = () => {
             </div>
           </div>
         </div>
-      </div>
+      
     </div>
   );
 };

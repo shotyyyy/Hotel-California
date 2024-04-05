@@ -11,14 +11,14 @@ import Footer from "../../commponents/Footer/Footer";
 function Home() {
   return (
     <div className="wrapper">
-      
+      <Header />
       <City />
       <Rooms />
       <InMoscow />
       <Bars />
       <Events />
       <Map />
-      
+      <Footer />
     </div>
   );
 }
