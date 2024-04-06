@@ -1,63 +1,83 @@
 .bars {
+  max-width: 1440px;
+  display: flex;
+  justify-content: flex-end;
   margin-top: 40px;
   background-color: black;
 }
 
 .bars_body {
   display: flex;
-  align-items: center;
+  /* align-items:flex-end; */
 }
 
 .bars_text {
+  text-align: left;
+  padding-top: 30px;
+  box-sizing: border-box;
   color: #fff;
 }
 
 .bars_title {
-  position: absolute;
-  top: 2340px;
-  right: 450px;
+  display: flex;
+  justify-content: flex-end;
+
+  
   font-size: 24px;
 }
 
 .bars_desc {
+  text-align: right;
+  display: flex;
+  padding-top: 20px;
+  justify-content: flex-end;
   font-size: 20px;
-  margin-left: 742px;
 }
 
 .bars_name {
+  width: 100%;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
   display: flex;
-  align-items: center;
+  /* align-items: center;
+  vertical-align: bottom;
   justify-content: space-between;
-  margin-top: 70px;
-  margin-right: 190px;
-  margin-left: 120px;
+  font-size: 20px; */
+}
+
+.rest-name {
+  display: flex;
+  text-align: center;
+  align-items: center;
   font-size: 20px;
+  justify-content: space-between;
+  vertical-align: bottom;
 }
 
 .bars_img {
-  margin-left: 30px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 40px;
 }
 
 .border1 {
   width: 230px;
   right: 489px;
-  position: absolute;
-  top: 2520px;
+  position: relative;
   border-bottom: 4px solid white;
 }
 
 .border2 {
   width: 230px;
   right: 853px;
-  position: absolute;
-  top: 2520px;
+  position: relative;
   border-bottom: 4px solid white;
 }
 
 .border3 {
   width: 230px;
   right: 1243px;
-  position: absolute;
-  top: 2520px;
+  position: relative;
   border-bottom: 4px solid white;
 }

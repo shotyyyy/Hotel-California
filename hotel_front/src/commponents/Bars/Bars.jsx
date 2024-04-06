@@ -14,11 +14,17 @@ const Bars = () => {
           </div>
           <div className="bars_name">
             <div className="border1"></div>
+            <span className="rest-name">California Bar</span>
+            <div className="border2"></div>
+            <span className="rest-name">Bluemarine lounge</span>
+            <div className="border3"></div>
+            <span className="rest-name">!Barum</span>
+            {/* <div className="border1"></div>
             <div>California Bar</div>
             <div className="border2"></div>
             <div>Bluemarine lounge</div>
             <div className="border3"></div>
-            <div>!Barum</div>
+            <div>!Barum</div> */}
           </div>
         </div>
         <div className="bars_img">
