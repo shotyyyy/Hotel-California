@@ -7,8 +7,11 @@ const InMoscow = () => {
     <div className="inMoscow">
       
         <div className="inMoscow_body">
-          <div className="inMoscow_title">ОТЕЛЬ CALIFORNIA В МОСКВЕ</div>
-          <div className="border-right"></div>
+          
+          <div className="inMoscow_title">
+            <div className="border-right"></div>
+            <span className="inMoscow_text">ОТЕЛЬ CALIFORNIA В МОСКВЕ</span>
+          </div>
           <div className="inMoscow_desc">
             <img className="fhod" src={fhod} alt="" />
             <span>Отель California, расположенный на исторической улице Москвы -

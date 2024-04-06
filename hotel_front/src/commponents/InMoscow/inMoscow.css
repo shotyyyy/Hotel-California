@@ -1,29 +1,45 @@
 .inMoscow {
-  margin-left: 200px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.border-right {
-  position: absolute;
-  border-bottom: 4px solid black;
-  width: 190px;
-  left: 1px;
-  top: 1906px;
+.inMoscow_body {
+  /* margin-bottom: 10px; */
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 
 .inMoscow_title {
-  font-size: 32px;
-  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+
+.border-right {
+  margin: auto 10px;
+  border-bottom: 4px solid black;
+  width: 190px;
+}
+
+.inMoscow_text {
+  font-size: 23px;
 }
 
 .inMoscow_desc {
+  padding-left: 214px;
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 19px;
 }
 
 .fhod {
-  height: 300px;
-  width: 500px;
+  align-items: flex-end;
+  height: 230px;
+  width: 370px;
 }
 
 .inMoscow_desc span {

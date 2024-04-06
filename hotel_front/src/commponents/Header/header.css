@@ -56,8 +56,9 @@
 
 .header_logo {
   height: 160px;
-  margin-left: 265px;
-  margin-right: 190px;
+  padding: auto;
+  /* margin-left: 265px;
+  margin-right: 190px; */
   /* 100px */
   width: 15%;
   background-color: #000;
