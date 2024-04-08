@@ -1,0 +1,69 @@
+.roomsP_cards {
+  margin-top: 62px;
+}
+
+.roomsP_cards_body {
+  display: flex;
+  align-items: center;
+  margin-left: 115px;
+  margin-right: 115px;
+  height: 426px;
+}
+
+.roomsP_text {
+  background-color: #000000;
+  color: white;
+  height: 416px;
+  width: 700px;
+}
+
+.roomsP_cards_title {
+  font-size: 24px;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+
+.roomsP_cards_desc {
+  font-size: 20px;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.roomsP_cards_metrs {
+  font-size: 20px;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.roomsP_cards_buttons {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  padding-top: 87px;
+}
+
+.roomsP_cards_btn {
+  font-size: 24px;
+  background-color: white;
+  color: #000000;
+  margin-right: 60px;
+  padding: 5px;
+}
+
+.roomsP_cards_sells {
+  font-size: 24px;
+  background-color: white;
+  color: #000000;
+  padding: 5px;
+}
+
+.roomsP_cards_dsc {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  padding-top: 49px;
+}
+
+.roomsP_cards_type {
+  margin-right: 53px;
+}
