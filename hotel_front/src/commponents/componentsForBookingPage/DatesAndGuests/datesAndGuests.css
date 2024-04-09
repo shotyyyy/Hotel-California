@@ -1,0 +1,42 @@
+.dates-and-guests {
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 100px; /* потом убрать */
+    align-items: center;
+}
+
+.rectangle-dag { 
+    width: 100%;
+    height: 120px;
+    background-color: #000;
+    justify-content: space-between;
+}
+
+input {
+    display: flex;
+    background: white;
+    color: #000;
+}
+
+.guests .guest {
+    display: flex;
+    width: 100px;
+    height: 80px;
+    padding-left: 50px;
+
+}
+
+.date {
+    display: flex;
+    width: 100px;
+    height: 80px;
+    padding-left: 50px;
+}
+
+
+
+.line-dag {
+    /* border: 2px solid white;
+    display: flex; */
+}

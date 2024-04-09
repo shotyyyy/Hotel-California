@@ -24,7 +24,7 @@ const Header = () => {
       path: "/",
     },
     { value: "НОМЕРА И ЦЕНЫ", path: "/RoomsPrices" },
-    { value: "БРОНИРОВАНИЕ", path: "#!" },
+    { value: "БРОНИРОВАНИЕ", path: "/Booking" },
     { value: "ЛИЧНЫЙ КАБИНЕТ", href: "#!" },
   ];
   useEffect(() => {
