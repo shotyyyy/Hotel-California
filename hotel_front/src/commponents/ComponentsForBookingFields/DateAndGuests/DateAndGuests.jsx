@@ -3,33 +3,33 @@ import './dateAndGuests.css'
 
 const DateAndguests = () => {
     return (
-        <div>
-            <div className="black-block">
-                <div className="white-line"></div>
-            </div>
-            <div className="input-fields">
-                <div>
-                    <p>Дата заезда:</p>
-                    <input type="date" />
-                </div>
-                <div>
-                    <p>Дата выезда:</p>
-                    <input type="date" />
-                </div>
-                <div className="white-line"></div>
-                <p>Количество человек:</p>
-                <div>
-                    <label>Взрослые:</label>
-                    <input type="number" />
-                </div>
-                <div>
-                    <label>Дети:</label>
-                    <input type="number" />
-                </div>
-                <div className="white-line"></div>
-                <button>Найти</button>
-            </div>
+    <div className="main-container">
+      <div className="line"></div>
+      <div className="input-group">
+        <label htmlFor="arrivalDate">Дата заезда:</label>
+        <input type="date" id="arrivalDate" name="arrivalDate" />
+      </div>
+      <div className="input-group">
+        <label htmlFor="departureDate">Дата выезда:</label>
+        <input type="date" id="departureDate" name="departureDate" />
+      </div>
+      <div className="line"></div>
+      <div className="guests">
+        <p>Количество человек:</p>
+        <div className="input-group">
+          <label htmlFor="adults">Взрослые:</label>
+          <input type="number" id="adults" name="adults" />
         </div>
+        <div className="input-group">
+          <label htmlFor="children">Дети:</label>
+          <input type="number" id="children" name="children" />
+        </div>
+      </div>
+      <div className="line"></div>
+      <div className="button-group">
+        <button>Найти</button>
+      </div>
+    </div>
     );
 }
 

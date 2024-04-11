@@ -1,23 +1,52 @@
-.black-block {
-    background: #000;
+.main-container {
+    background-color: black;
+    color: white;
     width: 100%;
-    height: 100px;
-}
-
-.white-line {
-    border-bottom: 2px solid white;
-    margin-top: 20px;
-}
-
-.input-fields {
-    padding: 20px;
-}
-
-.input-fields > div {
-    margin-bottom: 10px;
-}
-
-.input-fields .white-line {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .line {
     border-bottom: 1px solid white;
+    margin-top: 20px;
+    width: 90%
+  }
+  
+  .input-group {
+    text-align: center;
     margin-top: 10px;
+    display: flex;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 90%;
+  }
+  
+  .guests {
+    display: flex;
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .button-group {
+    text-align: center;
+    width: 40%;
+    height: 40px;
+    color: #000;
+    background-color: #fff; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+.input-group input[type="date"],
+.input-group input[type="number"] {
+  color: #1c1b1b;
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
 }
