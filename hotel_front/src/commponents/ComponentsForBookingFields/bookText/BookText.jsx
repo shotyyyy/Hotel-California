@@ -1,14 +1,14 @@
-import React from "react"
-import './bookingText.css'
+import React from "react";
+import './bookText.css';
 
-const BookingText = () => {
+const BookText = () => {
     return (
         <div className="booking-text">
             <div className="rectangle">
                 <span className="booking-rooms-txt">БРОНИРОВАНИЕ НОМЕРОВ</span>
-            </div> 
+            </div>
         </div>
     );
 }
 
-export default BookingText;
+export default BookText;

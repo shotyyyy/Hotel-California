@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import RoomsPrices from "./Pages/RoomsPrices/RoomsPrices";
-import Booking from "./Pages/Booking/Booking";
+import BookingField from "./Pages/BookingField/BookingField";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/RoomsPrices" element={<RoomsPrices />} />
-          <Route path="/Booking" element={<Booking />} />
+          <Route path="/BookingField" element={<BookingField />} />
         </Routes>
       </Router>
     </div>
