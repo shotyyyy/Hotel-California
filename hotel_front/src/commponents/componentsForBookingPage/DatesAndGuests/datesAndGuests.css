@@ -19,7 +19,7 @@ input {
     color: #000;
 }
 
-.guests .guest {
+.guests input {
     display: flex;
     width: 100px;
     height: 80px;
