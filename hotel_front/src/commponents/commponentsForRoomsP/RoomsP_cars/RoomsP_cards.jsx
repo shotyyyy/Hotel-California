@@ -1,6 +1,6 @@
 import React from "react";
-import styles from './roomsP_cards.module.css'
-import modern from '../../../img/Moscow_modern.png'
+import styles from "./roomsP_cards.module.css";
+import { Link } from "react-router-dom";
 
 const RoomsP_cards = (props) => {
   return (
@@ -15,20 +15,22 @@ const RoomsP_cards = (props) => {
           <div className={styles.roomsP_cards_metrs}>{props.metrs}</div>
           <div className={styles.roomsP_cards_buttons}>
             <div className={styles.roomsP_cards_btn}>
-              <button>Забронировать</button>
+              <Link to='/BookingField'>
+                <button>Забронировать</button>
+              </Link>
             </div>
             <div className={styles.roomsP_cards_sells}>
-                <p>{props.sells}</p>
+              <p>{props.sells}</p>
             </div>
           </div>
           <div className={styles.roomsP_cards_dsc}>
-              <div className={styles.roomsP_cards_type}>{props.type}</div>
-              <div className={styles.roomsP_cards_sells_desc}>Цена за ночь</div>
-            </div>
+            <div className={styles.roomsP_cards_type}>{props.type}</div>
+            <div className={styles.roomsP_cards_sells_desc}>Цена за ночь</div>
+          </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default RoomsP_cards
+export default RoomsP_cards;

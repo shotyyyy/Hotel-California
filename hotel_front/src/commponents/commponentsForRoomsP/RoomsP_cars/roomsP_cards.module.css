@@ -67,3 +67,8 @@
 .roomsP_cards_type {
   margin-right: 53px;
 }
+
+.roomsP_cards_btn a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
