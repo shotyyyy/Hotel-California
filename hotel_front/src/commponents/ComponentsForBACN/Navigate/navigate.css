@@ -14,13 +14,43 @@
   margin-left: 40px;
 }
 
-.navigate_calendar input {
+.navigate_calendar,
+.date_field {
   background-color: white;
   margin-right: 50px;
   height: 59px;
+  cursor: pointer;
 }
 
-.navigate_guests input {
+.navigate_guests, 
+.guests_field {
   background-color: white;
   height: 59px;
+  width: 273px;
+}
+
+
+.date-picker-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.date-picker-wrapper > div {
+  margin-top: 10px;
+  margin-right: -60px; /* Уменьшим отступ между двумя компонентами DatePicker */
+}
+
+.date-label {
+  margin-right: 10px; /* Уменьшим отступ между меткой и компонентами DatePicker */
+}
+
+.guest-select {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.guest-select-container {
+  width: 100%;
 }
