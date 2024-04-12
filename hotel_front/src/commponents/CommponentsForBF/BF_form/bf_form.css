@@ -1,0 +1,168 @@
+.bf_form {
+  margin-top: 50px;
+  background-color: black;
+  height: 860px;
+  margin-bottom: 60px;
+}
+
+.bf_form_body {
+  display: flex;
+  
+}
+
+.bf_form_img img {
+  height: 350px;
+  width: 390px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.bf_form_input_title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.bf_form_input_title input {
+  background-color: white;
+  height: 59px;
+  width: 390px;
+  font-size: 30px;
+}
+
+.bf_form_input_title label {
+  font-size: 24px;
+  color: white;
+}
+
+.bf_form_input_desc {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 72px;
+}
+
+.mail {
+  margin-right: 42px;
+}
+
+.mail input {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 59px;
+  width: 390px;
+  font-size: 30px;
+}
+
+.mail label {
+  font-size: 24px;
+  color: white;
+}
+
+.phone input {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 59px;
+  width: 390px;
+  font-size: 30px;
+}
+
+.phone label {
+  font-size: 24px;
+  color: white;
+}
+
+.bf_form_input_desc2 {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 72px;
+}
+
+.adults {
+  margin-right: 42px;
+}
+
+.adults input {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 59px;
+  width: 390px;
+  font-size: 30px;
+}
+
+.adults label {
+  font-size: 24px;
+  color: white;
+}
+
+.children input {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 59px;
+  width: 390px;
+  font-size: 30px;
+}
+
+.children label {
+  font-size: 24px;
+  color: white;
+}
+
+.bf_form_input_desc3 {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 72px;
+}
+
+.check-in {
+  margin-right: 42px;
+}
+
+.check-in input {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 59px;
+  width: 390px;
+  font-size: 30px;
+}
+
+.check-in label {
+  font-size: 24px;
+  color: white;
+}
+
+.departure input {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 59px;
+  width: 390px;
+  font-size: 30px;
+}
+
+.departure label {
+  font-size: 24px;
+  color: white;
+}
+
+.bf_form_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 81px;
+  
+}
+
+.bf_form_button button {
+  background-color: #6F6D6D;
+  font-size: 24px;
+  color: white;
+  width: 892px;
+  padding: 10px;
+  
+}

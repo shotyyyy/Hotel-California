@@ -1,0 +1,19 @@
+
+.BACN_nav_cards_img {
+  display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    align-items: flex-start;
+}
+
+.BACN_nav_cards_img img {
+  height: 340px;
+  width: 390px;
+}
+
+.BACN_nav_cards_img button {
+  padding: 5px;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  margin-bottom: 30px;
+}

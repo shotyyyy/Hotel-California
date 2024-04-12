@@ -1,0 +1,26 @@
+.navigate {
+  background-color: black;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.navigate_body {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.navigate_calendar input {
+  background-color: white;
+  margin-right: 50px;
+  height: 59px;
+}
+
+.navigate_guests input {
+  background-color: white;
+  height: 59px;
+}

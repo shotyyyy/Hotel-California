@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import RoomsPrices from "./Pages/RoomsPrices/RoomsPrices";
 import BookingField from "./Pages/BookingField/BookingField";
+import BookingAndChooseNum from "./Pages/BookingAndChooseNum/BookingAndChooseNum";
+import BookingForm from "./Pages/BookingForm/BookingForm";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/RoomsPrices" element={<RoomsPrices />} />
           <Route path="/BookingField" element={<BookingField />} />
+          <Route path="/BookingAndCN" element={<BookingAndChooseNum/>} />
+          <Route path="/BookingForm" element={<BookingForm />} />
         </Routes>
       </Router>
     </div>

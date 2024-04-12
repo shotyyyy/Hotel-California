@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './dateAndGuests.css'
 
 const DateAndguests = () => {
@@ -27,7 +28,10 @@ const DateAndguests = () => {
       </div>
       <div className="line"></div>
       <div className="button-group">
-        <button>Найти</button>
+        <Link to="/BookingAndCN">
+          <button>Назад</button>
+        </Link>
+
       </div>
     </div>
     );
