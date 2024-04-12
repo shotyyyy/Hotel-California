@@ -1,0 +1,24 @@
+.text_end {
+  background-color: rgb(39, 29, 29);
+}
+
+.text_end_text {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 703px;
+  color: white;
+}
+
+.text_end_title {
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.text_end_desc a {
+  font-size: 24px;
+  color: inherit !important;
+  text-decoration: none !important;
+}

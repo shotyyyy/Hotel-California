@@ -6,6 +6,7 @@ import RoomsPrices from "./Pages/RoomsPrices/RoomsPrices";
 import BookingField from "./Pages/BookingField/BookingField";
 import BookingAndChooseNum from "./Pages/BookingAndChooseNum/BookingAndChooseNum";
 import BookingForm from "./Pages/BookingForm/BookingForm";
+import End from "./Pages/End/End";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/BookingField" element={<BookingField />} />
           <Route path="/BookingAndCN" element={<BookingAndChooseNum/>} />
           <Route path="/BookingForm" element={<BookingForm />} />
+          <Route path="/End" element={<End />} />
         </Routes>
       </Router>
     </div>

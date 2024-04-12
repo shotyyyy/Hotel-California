@@ -1,6 +1,7 @@
 import React from "react";
 import "./bf_form.css";
-import modern from "../../../img/delux.png";
+import { Link } from "react-router-dom";
+
 
 const BF_form = (props) => {
   return (
@@ -45,7 +46,10 @@ const BF_form = (props) => {
             </div>
           </div>
           <div className="bf_form_button">
+          <Link to='/End'>
           <button>ЗАБРОНИРОВАТЬ</button>
+          </Link>
+          
         </div>
         </div>
       </div>
