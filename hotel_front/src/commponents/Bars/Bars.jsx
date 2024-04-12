@@ -21,7 +21,7 @@ const Bars = () => {
             <span className="rest-name">!Barum</span> */}
             <div className="california-bar">
               <div className="border1"></div>
-              <div>California Bar</div>
+              <div><a href="../files/bar-menu-by-hotel-california.pdf" target="_blank" download="">California Bar</a></div>
             </div>
             <div className="bluemarine">
               <div className="border2"></div>
