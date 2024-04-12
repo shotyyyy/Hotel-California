@@ -1,5 +1,6 @@
 import React from "react";
 import "./rooms.css";
+import { Link } from "react-router-dom";
 import delucs from "../../img/rooms/Номер _делюкс_.png";
 import buisnes from "../../img/rooms/Номер _пример_.png";
 import base from "../../img/rooms/Номер _базовый_.png";
@@ -16,7 +17,9 @@ const Rooms = () => {
           </div>
           <div className="border"></div>
           <div className="rooms_more">
-            <a href="#!">посмотреть все номера</a>
+          <Link to='/RoomsPrices'>
+          посмотреть все номера
+          </Link>
           </div>
         </div>
       </div>
