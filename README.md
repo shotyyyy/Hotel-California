@@ -12,4 +12,4 @@
 <br> Дмитриев Александр - аналитик
 
 # Стек технологий:
-...
+React, PostgreSQL, Figma, NodeJS, JavaScript
